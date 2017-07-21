@@ -1,0 +1,43 @@
+.shop-item{
+  clear: both;
+  margin: 35px 0;
+  margin-left: 150px;
+  overflow: none;
+  width: 85%;
+  height: 225px;
+  border-bottom: 1px solid #ccc;
+}
+.shop-item .item-pic{
+  float: left;
+  margin-right: 20px;
+}
+.shop-item .item-data{
+  height: 100%;
+  position: relative;
+}
+
+.shop-item .item-data .title{
+  padding: 10px;
+  color: blue;
+}
+
+.shop-item .item-data .price{
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.shop-item .item-data .stock{
+  display: block;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.item-data button{
+  position: absolute;
+  bottom: 10px;
+  left : 250px;
+  font-size: 18px;
+  background-color: #F0C14B;
+  padding: 2px 30px;
+  cursor: pointer;
+}

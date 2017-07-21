@@ -1,0 +1,8 @@
+.header{
+  height: 80px;
+}
+.header img{
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}

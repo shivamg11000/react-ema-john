@@ -1,0 +1,28 @@
+.order-summary{
+  position: fixed;
+  right: 0;
+  top: 140px;
+  width: 17.25%;
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+.order-summary h2,h3{
+  text-align: center;
+}
+.order-summary .order-detailed{
+  font-size: 14px;
+}
+.order-summary .order-total{
+  font-size: 20px;
+  color: #B1271B;
+}
+.order-summary button{
+  margin-top: 10px;
+  background-color: #F0C14B;
+  font-size: 20px;
+  border: 1px solid #444;
+  border-radius: 5%;
+  padding: 3px 5%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
